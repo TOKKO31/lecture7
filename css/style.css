@@ -1,0 +1,123 @@
+.conteiner{
+    width: 90%;
+    margin: 0% auto;
+    margin-top: 45px;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    width: 106px;
+    height: 32px;
+    font-size: 24px;
+    color: #1E0E62;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+    font-weight:500;
+    height: 50px;
+    background-color: aliceblue;
+}
+.nav-list{
+    display: flex;
+    column-gap: 40px;
+}
+.nav-word{
+    color: rgba(21, 20, 57, 0.4);
+}
+.btn-wrapper{
+    display: flex;
+    column-gap: 50px;
+}
+.login-btn{
+    width: 100px;
+    height: 40px;
+    background: #25DAC5;
+    border-radius: 100px;
+    padding-left: 28px;
+    padding-top: 12px;
+    color: #FFFFFF;
+}
+/* start section 2 */
+
+ /* .visual-title{
+    margin-top: 50px;
+    width: 714px;
+    height: 140px;
+    border: 1px solid red;
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+
+}  */
+.visual-section{
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.visual-title{
+    width: 714px;
+    height: 140px;
+    font-size: 58px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #1E0E62;
+
+}
+.visual-text{
+    width: 625px;
+    height: 96px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+    margin-bottom: 59px;
+}
+.visual-btn{
+    width: 268px;
+    height: 60px;
+    border-radius: 100px;
+    background: #E93A7D;
+    padding-left: 49px;
+    padding-top: 21px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.picture{
+    width: 228px;
+    display: flex;
+    column-gap: 114px;
+    font-family: 'DM Sans', sans-serif;
+}
+.picture-text{
+    width: 228px;
+    height: 84px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.picture1{
+ margin-left: 25px;
+}
+.line{
+    width: 2px;
+    height: 109px;
+    border: 2px solid #25DAC5;
+    background-color: #1E0E62;
+}
